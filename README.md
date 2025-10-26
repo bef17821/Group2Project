@@ -13,7 +13,11 @@
 
 ## Queries:
 1. Query 1 lists players whose GPA is less than 2.5 and who have logged more than 100 snaps this season.
-<img width="1234" height="266" alt="image" src="https://github.com/user-attachments/assets/758fc92a-8b2e-4a8d-87b1-61afabfb6766" />
+<img width="1230" height="262" alt="image" src="https://github.com/user-attachments/assets/761b12d7-2c69-4692-919b-b1127fdf327c" />
+
+Result:
+<img width="436" height="382" alt="image" src="https://github.com/user-attachments/assets/a6e9d2d4-cdaf-43be-93e0-6f42336fdc45" />
+
 This query helps staff identify which players are at risk academically with heavy athletic workloads. It supports academic support and coaching staff in targeting interventions for athletes that are really involved in games but also at risk of losing academic eligibility. Identifying these players is important in allocating academic resources and reducing playing time to support academic and athletic success.
 
 2. 
