@@ -7,6 +7,10 @@
 4. Brandon Sevel
 5. Hita Boddu
 
+## Problem Description:
+
+The task at hand is to model and build a reltional database for the general workings of a collegiate athletics program focused on its team roster and operations. The centeral entity in the model is the Players entity because it is the individual athletes whose information connects practices, positions, academics, equipment, injuries, awards, statistics, and NIL activity.
+
 ## Data Model Description: 
 Explanation of Data Model: 
 
