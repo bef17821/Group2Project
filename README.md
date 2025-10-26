@@ -98,42 +98,42 @@ From a management standpoint, this query quickly identifies which players are in
 
 ### Query 7 
 This query lists all players who have received an award. It joins the players, conferment, and award tables to display each player’s name along with the award name, trophy type, and sponsor. The DISTINCT keyword ensures each player-award combination is listed only once.
-<img width="1226" height="260" alt="image" src="https://github.com/user-attachments/assets/847dd103-9978-428b-9ed6-7a5ad35f8a01" />
+<img width="800" height="260" alt="image" src="https://github.com/user-attachments/assets/847dd103-9978-428b-9ed6-7a5ad35f8a01" />
 
 ### Result:
 
-<img width="794" height="164" alt="image" src="https://github.com/user-attachments/assets/9113af00-caa4-43c2-a640-351a3861001e" />
+<img width="600" height="164" alt="image" src="https://github.com/user-attachments/assets/9113af00-caa4-43c2-a640-351a3861001e" />
 
 This query helps management and communications staff easily identify and recognize player achievements. It supports tasks such as updating team websites, social media, or reports highlighting standout athletes, and it can also be used for award ceremonies or alumni engagement efforts.
 
 ### Query 8 
 This query calculates the average GPA for players in each position group. It converts position abbreviations (like MLB or QB) into their full names using a CASE statement. It then compares each position’s average GPA to the team’s overall GPA, showing only the positions that fall below the team average. The results are listed in ascending order of average GPA.
-<img width="1222" height="1136" alt="image" src="https://github.com/user-attachments/assets/eda731d0-54cb-460d-90f1-3beb362aec4a" />
+<img width="800" height="700" alt="image" src="https://github.com/user-attachments/assets/eda731d0-54cb-460d-90f1-3beb362aec4a" />
 
 ### Result:
 
-<img width="436" height="374" alt="image" src="https://github.com/user-attachments/assets/1b37a74a-4a08-42ac-995e-567ccef5a538" />
+<img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/1b37a74a-4a08-42ac-995e-567ccef5a538" />
 
 This query helps coaches and academic advisors identify position groups that may be underperforming academically. Managers can use this information to target academic support, tutoring, or schedule adjustments for specific groups of players, ensuring that academic performance is consistent across the team.
 
 
 ### Query 9 
 This query lists players whose average practice performance grade is higher than the overall team average. It joins the players table with the practice_attendence table, calculates each player’s average performance grade and total plays completed, and then filters the results to show only above-average performers.
-<img width="1206" height="716" alt="image" src="https://github.com/user-attachments/assets/d889c96b-8112-49d4-80f2-7c560d36ccdf" />
+<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/d889c96b-8112-49d4-80f2-7c560d36ccdf" />
 
 ### Result:
 
-<img width="578" height="670" alt="image" src="https://github.com/user-attachments/assets/fb06ac55-ab3f-46b2-929b-2e609ff40f03" />
+<img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/fb06ac55-ab3f-46b2-929b-2e609ff40f03" />
 
 This query helps coaches and training staff identify the most consistent and productive players during practice sessions. Recognizing top performers can guide decisions about starting lineups, leadership roles, or specialized training programs. It also provides data-driven insight into which players are exceeding expectations and contributing the most in practice.
 
 ### Query 10 
 This query calculates the average practice performance for each position group and compares it to the overall team average. It joins the players, primaryPosition, and practice_attendence tables to group performance data by position and shows only the positions performing above the team-wide average.
-<img width="578" height="670" alt="image" src="https://github.com/user-attachments/assets/83788136-ec95-4f5f-9bd9-435bb3abf2a3" />
+<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/3984a7bc-60be-4b98-9d7f-706f0e341b1e" />
 
 ### Result:
 
-<img width="456" height="164" alt="image" src="https://github.com/user-attachments/assets/42766217-e6be-47f4-a65e-355dfd6a79a4" />
+<img width="400" height="100" alt="image" src="https://github.com/user-attachments/assets/42766217-e6be-47f4-a65e-355dfd6a79a4" />
 
 This query allows coaches and team managers to evaluate which position groups are performing best during practices. By highlighting strong-performing units, managers can recognize effective training strategies, reward consistent groups, and identify which areas may need additional coaching or attention to improve overall team balance.
 
