@@ -51,6 +51,7 @@ Overall, the Players entity anchors the database. From it branch many-to-one rel
 ## Queries:
 ### Query 1 
 This query lists players whose GPA is less than 2.5 and who have logged more than 100 snaps this season.
+
 <img width="650" height="450" alt="image" src="https://github.com/user-attachments/assets/761b12d7-2c69-4692-919b-b1127fdf327c" />
 
 ### Result:
@@ -61,6 +62,7 @@ This query helps staff identify which players are at risk academically with heav
 
 ### Query 2 
 This query lists each player's name, the date of their latest injury, and the injury severity
+
 <img width="1050" height="260" alt="image" src="https://github.com/user-attachments/assets/a047974c-82ad-4fac-97bc-a0ddf7cda212" />
 
 ### Result: 
@@ -71,6 +73,7 @@ This query gives medical and coaching staff a way to see each player's most rece
 
 ### Query 3 
 This query shows the number of NIL contracts and total value by sponsor industry in descending order
+
 <img width="1230" height="136" alt="image" src="https://github.com/user-attachments/assets/f16ab17c-746a-444a-8e8e-15df4cc2d626" />
 
 ### Result: 
@@ -81,6 +84,7 @@ This query helps administrators understand which industries are most invested in
 
 ### Query 4 
 This Query lists each mentor, their average player rating, and the average rating of their mentors. It includes only players that mentor at least one mentee.
+
 <img width="1232" height="176" alt="image" src="https://github.com/user-attachments/assets/ffa02135-088e-43a8-bece-03dcf868a58d" />
 
 ### Result: 
@@ -91,6 +95,7 @@ This query shows how each mentor's performance relates to their mentees' average
 
 ### Query 5 
 This query lists each player, the total number of minutes they spent in practice, and their average player rating.
+
 <img width="800" height="300" alt="image" src="https://github.com/user-attachments/assets/6e68366f-ec25-4d5f-96ad-8218cc97073e" />
 
 ### Result:
@@ -101,6 +106,7 @@ This query shows you whether players who practice more tend to have higher perfo
 
 ### Query 6 
 This query lists of players who are academically eligible, meaning their GPA is greater than 2.0 or they are not currently on academic probation. It joins the players table with the academic_record table to show each player’s name, GPA, and probation status.
+
 <img width="600" height="150" alt="image" src="https://github.com/user-attachments/assets/ecee9280-a28e-4d60-aa3a-42260cb6183c" />
 
 ### Result:
@@ -111,6 +117,7 @@ From a management standpoint, this query quickly identifies which players are in
 
 ### Query 7 
 This query lists all players who have received an award. It joins the players, conferment, and award tables to display each player’s name along with the award name, trophy type, and sponsor. The DISTINCT keyword ensures each player-award combination is listed only once.
+
 <img width="800" height="260" alt="image" src="https://github.com/user-attachments/assets/847dd103-9978-428b-9ed6-7a5ad35f8a01" />
 
 ### Result:
@@ -121,6 +128,7 @@ This query helps management and communications staff easily identify and recogni
 
 ### Query 8 
 This query calculates the average GPA for players in each position group. It converts position abbreviations (like MLB or QB) into their full names using a CASE statement. It then compares each position’s average GPA to the team’s overall GPA, showing only the positions that fall below the team average. The results are listed in ascending order of average GPA.
+
 <img width="600" height="700" alt="image" src="https://github.com/user-attachments/assets/eda731d0-54cb-460d-90f1-3beb362aec4a" />
 
 ### Result:
