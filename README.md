@@ -38,7 +38,7 @@ Overall, the Players entity anchors the database. From it branch many-to-one rel
 ## Queries:
 ### Query 1 
 This query lists players whose GPA is less than 2.5 and who have logged more than 100 snaps this season.
-<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/761b12d7-2c69-4692-919b-b1127fdf327c" />
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/761b12d7-2c69-4692-919b-b1127fdf327c" />
 
 ### Result:
 
@@ -48,7 +48,7 @@ This query helps staff identify which players are at risk academically with heav
 
 ### Query 2 
 This query lists each player's name, the date of their latest injury, and the injury severity
-<img width="950" height="260" alt="image" src="https://github.com/user-attachments/assets/a047974c-82ad-4fac-97bc-a0ddf7cda212" />
+<img width="1050" height="260" alt="image" src="https://github.com/user-attachments/assets/a047974c-82ad-4fac-97bc-a0ddf7cda212" />
 
 ### Result: 
 
@@ -62,7 +62,7 @@ This query shows the number of NIL contracts and total value by sponsor industry
 
 ### Result: 
 
-<img width="514" height="174" alt="image" src="https://github.com/user-attachments/assets/5533855f-656f-4690-9b88-5273ba3ff0fd" />
+<img width="400" height="174" alt="image" src="https://github.com/user-attachments/assets/5533855f-656f-4690-9b88-5273ba3ff0fd" />
 
 This query helps administrators understand which industries are most invested in the program and they can use that data to assess financial dependency or outreach gaps. Understanding which industries bring in the most money and contracts can help staff position their players towards those industries.
 
@@ -72,7 +72,7 @@ This Query lists each mentor, their average player rating, and the average ratin
 
 ### Result: 
 
-<img width="600" height="250" alt="image" src="https://github.com/user-attachments/assets/72132cf1-0322-4ed7-85ea-ff81f4e32005" />
+<img width="500" height="250" alt="image" src="https://github.com/user-attachments/assets/72132cf1-0322-4ed7-85ea-ff81f4e32005" />
 
 This query shows how each mentor's performance relates to their mentees' average performance over time. This will help show a strong correlation between mentors performance and their mentee's performance, which helps staff see which mentors exhibit strong leadership and growth within the team. 
 
