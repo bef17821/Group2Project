@@ -47,6 +47,9 @@ Result:
 
 This query helps staff identify which players are at risk academically with heavy athletic workloads. It supports academic support and coaching staff in targeting interventions for athletes that are really involved in games but also at risk of losing academic eligibility. Identifying these players is important in allocating academic resources and reducing playing time to support academic and athletic success.
 
-2. 
+2. Query 2 lists each player's name, the date of their latest injury, and the injury severity
+
+This query gives medical and coaching staff a way to see each player's most recent injury. Looking at the date and severity of past injuries is important, especially for athletes as it helps monitor recovery progress and allocate training workload. With this information, staff can plan the roster and make training adjustments based on each player's most recent injury.
+
 
 ## Database Information: 
