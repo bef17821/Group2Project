@@ -129,7 +129,7 @@ This query helps coaches and training staff identify the most consistent and pro
 
 ### Query 10 
 This query calculates the average practice performance for each position group and compares it to the overall team average. It joins the players, primaryPosition, and practice_attendence tables to group performance data by position and shows only the positions performing above the team-wide average.
-<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/3984a7bc-60be-4b98-9d7f-706f0e341b1e" />
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/3984a7bc-60be-4b98-9d7f-706f0e341b1e" />
 
 ### Result:
 
