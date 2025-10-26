@@ -67,6 +67,32 @@ This query shows how each mentor's performance relates to their mentees' average
 
 This query shows you whether players who practice more tend to have higher performance ratings and it helps coaches and performance staff analyze correlations between practice and training effort and performance on the field. If there is a positive correlation seen there, managers and staff could incentive players to practice more and put more effort into training for increased performance rating. 
 
+6. What the query does:
+This query retrieves a list of players who are academically eligible, meaning their GPA is greater than 2.0 or they are not currently on academic probation. It joins the players table with the academic_record table to show each player’s name, GPA, and probation status.
+Why it’s important from a managerial perspective:
+From a management standpoint, this query quickly identifies which players are in good academic standing and therefore eligible to participate in team activities or competitions. Coaches and academic advisors can use this information to ensure compliance with eligibility rules, plan playing rosters, and focus support efforts on players who may be at academic risk.
+
+7. What the query does:
+This query lists all players who have received an award. It joins the players, conferment, and award tables to display each player’s name along with the award name, trophy type, and sponsor. The DISTINCT keyword ensures each player-award combination is listed only once.
+Why it’s important from a managerial perspective:
+This query helps management and communications staff easily identify and recognize player achievements. It supports tasks such as updating team websites, social media, or reports highlighting standout athletes, and it can also be used for award ceremonies or alumni engagement efforts.
+
+8. What the query does:
+This query calculates the average GPA for players in each position group. It converts position abbreviations (like MLB or QB) into their full names using a CASE statement. It then compares each position’s average GPA to the team’s overall GPA, showing only the positions that fall below the team average. The results are listed in ascending order of average GPA.
+Why it’s important from a managerial perspective:
+This query helps coaches and academic advisors identify position groups that may be underperforming academically. Managers can use this information to target academic support, tutoring, or schedule adjustments for specific groups of players, ensuring that academic performance is consistent across the team.
+
+
+9. What the query does:
+This query lists players whose average practice performance grade is higher than the overall team average. It joins the players table with the practice_attendence table, calculates each player’s average performance grade and total plays completed, and then filters the results to show only above-average performers.
+Why it’s important from a managerial perspective:
+This query helps coaches and training staff identify the most consistent and productive players during practice sessions. Recognizing top performers can guide decisions about starting lineups, leadership roles, or specialized training programs. It also provides data-driven insight into which players are exceeding expectations and contributing the most in practice.
+
+10. What the query does:
+This query calculates the average practice performance for each position group and compares it to the overall team average. It joins the players, primaryPosition, and practice_attendence tables to group performance data by position and shows only the positions performing above the team-wide average.
+Why it’s important from a managerial perspective:
+This query allows coaches and team managers to evaluate which position groups are performing best during practices. By highlighting strong-performing units, managers can recognize effective training strategies, reward consistent groups, and identify which areas may need additional coaching or attention to improve overall team balance.
+
 
 
 ## Database Information: 
