@@ -120,7 +120,7 @@ This query helps coaches and academic advisors identify position groups that may
 ### Query 9 
 This query lists players whose average practice performance grade is higher than the overall team average. It joins the players table with the practice_attendence table, calculates each player’s average performance grade and total plays completed, and then filters the results to show only above-average performers.
 
-<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/d889c96b-8112-49d4-80f2-7c560d36ccdf" />
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/d889c96b-8112-49d4-80f2-7c560d36ccdf" />
 
 ### Result:
 
