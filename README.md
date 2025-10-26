@@ -34,6 +34,19 @@ Overall, the Players entity anchors the database. From it branch many-to-one rel
 
 
 ## Data Dictionary:
+<img width="994" height="720" alt="image" src="https://github.com/user-attachments/assets/12f74a72-7b52-4d4f-8986-8ed386befd6e" />
+<img width="970" height="632" alt="image" src="https://github.com/user-attachments/assets/3035bed0-5608-4b93-8f5b-4ddd6f3e07be" />
+<img width="972" height="410" alt="image" src="https://github.com/user-attachments/assets/5013e9ba-2a07-4ea0-9fb0-4754bb9baf07" />
+<img width="974" height="900" alt="image" src="https://github.com/user-attachments/assets/8e4c3eb7-667f-42af-a9c1-c56898ccc431" />
+<img width="982" height="402" alt="image" src="https://github.com/user-attachments/assets/da54b1b8-5498-493c-8a17-cb76c7ab355e" />
+<img width="984" height="672" alt="image" src="https://github.com/user-attachments/assets/697231cb-1380-4b40-ab48-769bc2e81749" />
+<img width="972" height="884" alt="image" src="https://github.com/user-attachments/assets/1366db3f-984e-456f-a79c-04c8fcc0dfc2" />
+<img width="978" height="764" alt="image" src="https://github.com/user-attachments/assets/9e30e9c3-a7cd-4377-a9a5-287a590cd4af" />
+<img width="976" height="788" alt="image" src="https://github.com/user-attachments/assets/ad4c8578-6083-4b20-8b31-84f84091ca24" />
+<img width="970" height="516" alt="image" src="https://github.com/user-attachments/assets/9a6fd9c9-addc-4b2a-bb4a-e80151837295" />
+<img width="968" height="692" alt="image" src="https://github.com/user-attachments/assets/77420402-e3b1-4416-8ae3-e71355c6dbd2" />
+<img width="960" height="718" alt="image" src="https://github.com/user-attachments/assets/681c5b02-2ed3-46ce-82e6-b2c53ad586df" />
+<img width="976" height="696" alt="image" src="https://github.com/user-attachments/assets/4410b237-57ce-4502-9b6a-793c8b6786b0" />
 
 ## Queries:
 ### Query 1 
