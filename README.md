@@ -54,5 +54,9 @@ Result:
 
 This query gives medical and coaching staff a way to see each player's most recent injury. Looking at the date and severity of past injuries is important, especially for athletes as it helps monitor recovery progress and allocate training workload. With this information, staff can plan the roster and make training adjustments based on each player's most recent injury.
 
+3. Query 3 shows the number of NIL contracts and total value by sponsor industry in descending order
+
+   This query helps administrators understand which industries are most invested in the program and they can use that data to assess financial dependency or outreach gaps. Understanding which industries bring in the most money and contracts can help staff position their players towards those industries. 
+
 
 ## Database Information: 
