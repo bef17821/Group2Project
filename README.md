@@ -78,11 +78,11 @@ This query shows how each mentor's performance relates to their mentees' average
 
 ### Query 5 
 This query lists each player, the total number of minutes they spent in practice, and their average player rating.
-<img width="1236" height="190" alt="image" src="https://github.com/user-attachments/assets/6e68366f-ec25-4d5f-96ad-8218cc97073e" />
+<img width="600" height="100" alt="image" src="https://github.com/user-attachments/assets/6e68366f-ec25-4d5f-96ad-8218cc97073e" />
 
 ### Result:
 
-<img width="552" height="1150" alt="image" src="https://github.com/user-attachments/assets/5fa6c891-25cc-44a0-b76e-e93c33373250" />
+<img width="552" height="700" alt="image" src="https://github.com/user-attachments/assets/5fa6c891-25cc-44a0-b76e-e93c33373250" />
 
 This query shows you whether players who practice more tend to have higher performance ratings and it helps coaches and performance staff analyze correlations between practice and training effort and performance on the field. If there is a positive correlation seen there, managers and staff could incentive players to practice more and put more effort into training for increased performance rating.  
 
