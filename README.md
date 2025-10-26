@@ -56,7 +56,17 @@ This query gives medical and coaching staff a way to see each player's most rece
 
 3. Query 3 shows the number of NIL contracts and total value by sponsor industry in descending order
 
-   This query helps administrators understand which industries are most invested in the program and they can use that data to assess financial dependency or outreach gaps. Understanding which industries bring in the most money and contracts can help staff position their players towards those industries. 
+This query helps administrators understand which industries are most invested in the program and they can use that data to assess financial dependency or outreach gaps. Understanding which industries bring in the most money and contracts can help staff position their players towards those industries.
+
+
+4. Query 4 lists each mentor, their average player rating, and the average rating of their mentors. It includes only players that mentor at least one mentee
+
+This query shows how each mentor's performance relates to their mentees' average performance over time. This will help show a strong correlation between mentors performance and their mentee's performance, which helps staff see which mentors exhibit strong leadership and growth within the team. 
+
+5. Query 5 lists each player, the total number of minutes they spent in practice, and their average player rating. 
+
+This query shows you whether players who practice more tend to have higher performance ratings and it helps coaches and performance staff analyze correlations between practice and training effort and performance on the field. If there is a positive correlation seen there, managers and staff could incentive players to practice more and put more effort into training for increased performance rating. 
+
 
 
 ## Database Information: 
