@@ -170,4 +170,4 @@ This query allows coaches and team managers to evaluate which position groups ar
 ## Database Information: 
 Name of the database: ns_Group2
 
-- Each query is a stored procedure in the database and can be called using the format TP_Q1();
+- Each query is a stored procedure in the database and can be called using the format CALL TP_Q1();
