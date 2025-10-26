@@ -13,11 +13,11 @@ The task at hand is to model and build a reltional database for the general work
 
 ## Data Model Description: 
 
-<img width="1794" height="1054" alt="image" src="https://github.com/user-attachments/assets/90d1ef35-8a4b-4a75-bfde-f0224bdc3a3d" />
+<img width="1782" height="1024" alt="image" src="https://github.com/user-attachments/assets/61e60e18-b439-4af2-a773-7371879c7275" />
 
 Our model is based on the structure of an athletics roster database. The Players entity stores each athlete (with attributes such as playerName and physical measures), and it is the hub for the rest of the system. Players has a many-to-one relationship with primaryPosition, where a position records data like positionID, positionType, and the number of players at that position. Players reference their primaryPosition, so each position can have many players assigned to it.
 
-There is a recursive relationship in the position area as well. primaryPosition includes captainID and captainName, and it connects to players through a labeled “Captain” relationship to indicate that a position designates a specific player as captain. Inside Players there is also a recursive “Mentor” relationship through mentorID, showing that one player can serve as a mentor for other players.
+There is a role relationship in the position area as well. primaryPosition includes captainID and captainName, and it connects to players through a labeled “Captain” relationship to indicate that a position designates a specific player as captain. Inside Players there is also a recursive “Mentor” relationship through mentorID, showing that one player can serve as a mentor for other players.
 
 Academic information is modeled by the academic_record table. Each players record can have an associated academic_record capturing items such as GPA, creditHours, expectedGraduationDate, and probationStatus. This produces a one-to-many relationship from Players to Academic_Record so that academic snapshots can be stored per player as needed.
 
