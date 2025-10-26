@@ -12,6 +12,9 @@
 The task at hand is to model and build a reltional database for the general workings of a collegiate athletics program focused on its team roster and operations. The centeral entity in the model is the Players entity because it is the individual athletes whose information connects practices, positions, academics, equipment, injuries, awards, statistics, and NIL activity.
 
 ## Data Model Description: 
+
+<img width="500" height="500" alt="image" src="https://github.com/bef17821/Group2Project/blob/main/IMG_7381.PNG" />
+
 Explanation of Data Model: 
 
 Our model is based on the structure of an athletics roster database. The Players entity stores each athlete (with attributes such as playerName and physical measures), and it is the hub for the rest of the system. Players has a many-to-one relationship with Primary_Position, where a position records metadata like positionID, positionType, and the number of players at that position. Players reference their Primary_Position, so each position can have many players assigned to it.
