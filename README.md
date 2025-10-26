@@ -88,11 +88,11 @@ This query shows you whether players who practice more tend to have higher perfo
 
 ### Query 6 
 This query lists of players who are academically eligible, meaning their GPA is greater than 2.0 or they are not currently on academic probation. It joins the players table with the academic_record table to show each player’s name, GPA, and probation status.
-<img width="1244" height="182" alt="image" src="https://github.com/user-attachments/assets/ecee9280-a28e-4d60-aa3a-42260cb6183c" />
+<img width="1000" height="150" alt="image" src="https://github.com/user-attachments/assets/ecee9280-a28e-4d60-aa3a-42260cb6183c" />
 
 ### Result:
 
-<img width="572" height="1160" alt="image" src="https://github.com/user-attachments/assets/e954567d-49be-4464-afdf-d72cd7640f32" />
+<img width="500" height="900" alt="image" src="https://github.com/user-attachments/assets/e954567d-49be-4464-afdf-d72cd7640f32" />
 
 From a management standpoint, this query quickly identifies which players are in good academic standing and therefore eligible to participate in team activities or competitions. Coaches and academic advisors can use this information to ensure compliance with eligibility rules, plan playing rosters, and focus support efforts on players who may be at academic risk.
 
