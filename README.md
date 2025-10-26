@@ -1,5 +1,8 @@
 # MIST 4610 Group 2 Project 1
 
+## Team Name
+62755 Group 2
+
 ## Team Members 
 1. Brooke Francis [@bef17821] (https://github.com/bef17821)
 2. Sophia Tran [@sophiaytran] (https://github.com/sophiaytran)
