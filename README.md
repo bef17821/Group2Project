@@ -36,92 +36,102 @@ Overall, the Players entity anchors the database. From it branch many-to-one rel
 ## Data Dictionary:
 
 ## Queries:
-# Query 1 lists players whose GPA is less than 2.5 and who have logged more than 100 snaps this season.
+### Query 1 
+This query lists players whose GPA is less than 2.5 and who have logged more than 100 snaps this season.
 <img width="500" height="100" alt="image" src="https://github.com/user-attachments/assets/761b12d7-2c69-4692-919b-b1127fdf327c" />
 
-Result:
+### Result:
 
 <img width="200" height="300" alt="image" src="https://github.com/user-attachments/assets/a6e9d2d4-cdaf-43be-93e0-6f42336fdc45" />
 
 This query helps staff identify which players are at risk academically with heavy athletic workloads. It supports academic support and coaching staff in targeting interventions for athletes that are really involved in games but also at risk of losing academic eligibility. Identifying these players is important in allocating academic resources and reducing playing time to support academic and athletic success.
 
-2. Query 2 lists each player's name, the date of their latest injury, and the injury severity
+### Query 2 
+This query lists each player's name, the date of their latest injury, and the injury severity
 <img width="850" height="160" alt="image" src="https://github.com/user-attachments/assets/a047974c-82ad-4fac-97bc-a0ddf7cda212" />
 
-Result: 
+### Result: 
 
 <img width="488" height="228" alt="image" src="https://github.com/user-attachments/assets/4d57034b-e4cd-4746-a166-63bf93538652" />
 
 This query gives medical and coaching staff a way to see each player's most recent injury. Looking at the date and severity of past injuries is important, especially for athletes as it helps monitor recovery progress and allocate training workload. With this information, staff can plan the roster and make training adjustments based on each player's most recent injury.
 
-3. Query 3 shows the number of NIL contracts and total value by sponsor industry in descending order
+### Query 3 
+This query shows the number of NIL contracts and total value by sponsor industry in descending order
 <img width="1230" height="136" alt="image" src="https://github.com/user-attachments/assets/f16ab17c-746a-444a-8e8e-15df4cc2d626" />
 
-Result: 
+### Result: 
 
 <img width="514" height="174" alt="image" src="https://github.com/user-attachments/assets/5533855f-656f-4690-9b88-5273ba3ff0fd" />
 
 This query helps administrators understand which industries are most invested in the program and they can use that data to assess financial dependency or outreach gaps. Understanding which industries bring in the most money and contracts can help staff position their players towards those industries.
 
-4. Query 4 lists each mentor, their average player rating, and the average rating of their mentors. It includes only players that mentor at least one mentee.
+### Query 4 
+This Query lists each mentor, their average player rating, and the average rating of their mentors. It includes only players that mentor at least one mentee.
 <img width="1232" height="176" alt="image" src="https://github.com/user-attachments/assets/ffa02135-088e-43a8-bece-03dcf868a58d" />
 
-Result: 
+### Result: 
 
 <img width="672" height="258" alt="image" src="https://github.com/user-attachments/assets/72132cf1-0322-4ed7-85ea-ff81f4e32005" />
 
 This query shows how each mentor's performance relates to their mentees' average performance over time. This will help show a strong correlation between mentors performance and their mentee's performance, which helps staff see which mentors exhibit strong leadership and growth within the team. 
 
-5. Query 5 lists each player, the total number of minutes they spent in practice, and their average player rating.
+### Query 5 
+This query lists each player, the total number of minutes they spent in practice, and their average player rating.
 <img width="1236" height="190" alt="image" src="https://github.com/user-attachments/assets/6e68366f-ec25-4d5f-96ad-8218cc97073e" />
 
-Result:
+### Result:
 
 <img width="552" height="1150" alt="image" src="https://github.com/user-attachments/assets/5fa6c891-25cc-44a0-b76e-e93c33373250" />
 
 This query shows you whether players who practice more tend to have higher performance ratings and it helps coaches and performance staff analyze correlations between practice and training effort and performance on the field. If there is a positive correlation seen there, managers and staff could incentive players to practice more and put more effort into training for increased performance rating.  
 
-6. Query 6 lists of players who are academically eligible, meaning their GPA is greater than 2.0 or they are not currently on academic probation. It joins the players table with the academic_record table to show each player’s name, GPA, and probation status.
+### Query 6 
+This query lists of players who are academically eligible, meaning their GPA is greater than 2.0 or they are not currently on academic probation. It joins the players table with the academic_record table to show each player’s name, GPA, and probation status.
 <img width="1244" height="182" alt="image" src="https://github.com/user-attachments/assets/ecee9280-a28e-4d60-aa3a-42260cb6183c" />
 
-Result:
+### Result:
 
 <img width="572" height="1160" alt="image" src="https://github.com/user-attachments/assets/e954567d-49be-4464-afdf-d72cd7640f32" />
 
 From a management standpoint, this query quickly identifies which players are in good academic standing and therefore eligible to participate in team activities or competitions. Coaches and academic advisors can use this information to ensure compliance with eligibility rules, plan playing rosters, and focus support efforts on players who may be at academic risk.
 
-7. Query 7 lists all players who have received an award. It joins the players, conferment, and award tables to display each player’s name along with the award name, trophy type, and sponsor. The DISTINCT keyword ensures each player-award combination is listed only once.
+### Query 7 
+This query lists all players who have received an award. It joins the players, conferment, and award tables to display each player’s name along with the award name, trophy type, and sponsor. The DISTINCT keyword ensures each player-award combination is listed only once.
 <img width="1226" height="260" alt="image" src="https://github.com/user-attachments/assets/847dd103-9978-428b-9ed6-7a5ad35f8a01" />
 
-Result:
+### Result:
 
 <img width="794" height="164" alt="image" src="https://github.com/user-attachments/assets/9113af00-caa4-43c2-a640-351a3861001e" />
 
 This query helps management and communications staff easily identify and recognize player achievements. It supports tasks such as updating team websites, social media, or reports highlighting standout athletes, and it can also be used for award ceremonies or alumni engagement efforts.
 
-8. Query 8 calculates the average GPA for players in each position group. It converts position abbreviations (like MLB or QB) into their full names using a CASE statement. It then compares each position’s average GPA to the team’s overall GPA, showing only the positions that fall below the team average. The results are listed in ascending order of average GPA.
+### Query 8 
+This query calculates the average GPA for players in each position group. It converts position abbreviations (like MLB or QB) into their full names using a CASE statement. It then compares each position’s average GPA to the team’s overall GPA, showing only the positions that fall below the team average. The results are listed in ascending order of average GPA.
 <img width="1222" height="1136" alt="image" src="https://github.com/user-attachments/assets/eda731d0-54cb-460d-90f1-3beb362aec4a" />
 
-Result:
+### Result:
 
 <img width="436" height="374" alt="image" src="https://github.com/user-attachments/assets/1b37a74a-4a08-42ac-995e-567ccef5a538" />
 
 This query helps coaches and academic advisors identify position groups that may be underperforming academically. Managers can use this information to target academic support, tutoring, or schedule adjustments for specific groups of players, ensuring that academic performance is consistent across the team.
 
 
-9. Query 9 lists players whose average practice performance grade is higher than the overall team average. It joins the players table with the practice_attendence table, calculates each player’s average performance grade and total plays completed, and then filters the results to show only above-average performers.
+### Query 9 
+This query lists players whose average practice performance grade is higher than the overall team average. It joins the players table with the practice_attendence table, calculates each player’s average performance grade and total plays completed, and then filters the results to show only above-average performers.
 <img width="1206" height="716" alt="image" src="https://github.com/user-attachments/assets/d889c96b-8112-49d4-80f2-7c560d36ccdf" />
 
-Result:
+### Result:
 
 <img width="578" height="670" alt="image" src="https://github.com/user-attachments/assets/fb06ac55-ab3f-46b2-929b-2e609ff40f03" />
 
 This query helps coaches and training staff identify the most consistent and productive players during practice sessions. Recognizing top performers can guide decisions about starting lineups, leadership roles, or specialized training programs. It also provides data-driven insight into which players are exceeding expectations and contributing the most in practice.
 
-10. Query 10 calculates the average practice performance for each position group and compares it to the overall team average. It joins the players, primaryPosition, and practice_attendence tables to group performance data by position and shows only the positions performing above the team-wide average.
+### Query 10 
+This query calculates the average practice performance for each position group and compares it to the overall team average. It joins the players, primaryPosition, and practice_attendence tables to group performance data by position and shows only the positions performing above the team-wide average.
 <img width="578" height="670" alt="image" src="https://github.com/user-attachments/assets/83788136-ec95-4f5f-9bd9-435bb3abf2a3" />
 
-Result:
+### Result:
 
 <img width="456" height="164" alt="image" src="https://github.com/user-attachments/assets/42766217-e6be-47f4-a65e-355dfd6a79a4" />
 
