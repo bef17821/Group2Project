@@ -1,11 +1,11 @@
 # MIST 4610 Group 2 Project 1
 
 ## Team Members 
-1. Brooke Francis
-2. Sophia Tran
-3. Pranav Saravanakumar
-4. Brandon Sevel
-5. Hita Boddu
+1. Brooke Francis [@bef17821] (https://github.com/bef17821)
+2. Sophia Tran [@sophiaytran] (https://github.com/sophiaytran)
+3. Pranav Saravanakumar [@Pranav-23-23] (https://github.com/Pranav-23-23)
+4. Brandon Sevel [@BrandonSevel] (https://github.com/BrandonSevel)
+5. Hita Boddu [@hitaboddu] (https://github.com/hitaboddu)
 
 ## Problem Description:
 
