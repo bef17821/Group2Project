@@ -38,21 +38,21 @@ Overall, the Players entity anchors the database. From it branch many-to-one rel
 ## Queries:
 ### Query 1 
 This query lists players whose GPA is less than 2.5 and who have logged more than 100 snaps this season.
-<img width="500" height="100" alt="image" src="https://github.com/user-attachments/assets/761b12d7-2c69-4692-919b-b1127fdf327c" />
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/761b12d7-2c69-4692-919b-b1127fdf327c" />
 
 ### Result:
 
-<img width="200" height="300" alt="image" src="https://github.com/user-attachments/assets/a6e9d2d4-cdaf-43be-93e0-6f42336fdc45" />
+<img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/a6e9d2d4-cdaf-43be-93e0-6f42336fdc45" />
 
 This query helps staff identify which players are at risk academically with heavy athletic workloads. It supports academic support and coaching staff in targeting interventions for athletes that are really involved in games but also at risk of losing academic eligibility. Identifying these players is important in allocating academic resources and reducing playing time to support academic and athletic success.
 
 ### Query 2 
 This query lists each player's name, the date of their latest injury, and the injury severity
-<img width="850" height="160" alt="image" src="https://github.com/user-attachments/assets/a047974c-82ad-4fac-97bc-a0ddf7cda212" />
+<img width="950" height="260" alt="image" src="https://github.com/user-attachments/assets/a047974c-82ad-4fac-97bc-a0ddf7cda212" />
 
 ### Result: 
 
-<img width="488" height="228" alt="image" src="https://github.com/user-attachments/assets/4d57034b-e4cd-4746-a166-63bf93538652" />
+<img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/4d57034b-e4cd-4746-a166-63bf93538652" />
 
 This query gives medical and coaching staff a way to see each player's most recent injury. Looking at the date and severity of past injuries is important, especially for athletes as it helps monitor recovery progress and allocate training workload. With this information, staff can plan the roster and make training adjustments based on each player's most recent injury.
 
